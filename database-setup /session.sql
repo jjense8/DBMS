@@ -3,11 +3,11 @@ after running first script in setup.sql file  */
 
 USE Lab3;
 
-CREATE TABLE equipment (
+CREATE TABLE session (
     title VARCHAR(100) PRIMARY KEY NOT NULL
 );
 
-INSERT INTO equipment(title)
+INSERT INTO session(title)
 values 
  ('16-043-1017'),
  ('96-009-2344'),
