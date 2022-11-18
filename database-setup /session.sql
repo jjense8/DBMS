@@ -4,13 +4,10 @@ after running first script in setup.sql file  */
 USE Lab3;
 
 CREATE TABLE equipment (
-    name VARCHAR(100) PRIMARY KEY NOT NULL,
-    weight INTEGER NOT NULL,
-    condition VARCHAR(100) NOT NULL,
-    quantity INTEGER NOT NULL
+    title VARCHAR(100) PRIMARY KEY NOT NULL
 );
 
-INSERT INTO equipment(name,weight,condition,quantity)
+INSERT INTO equipment(title)
 values 
  ('16-043-1017'),
  ('96-009-2344'),

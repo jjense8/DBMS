@@ -1,110 +1,112 @@
 USE Lab3;   
 
-CREATE TABLE gym (
-    address VARCHAR(100) PRIMARY KEY NOT NULL,
-    nameofgym VARCHAR(100) NOT NULL
+CREATE TABLE equipment (
+    equipmentname VARCHAR(100) PRIMARY KEY NOT NULL,
+    weight INTEGER NOT NULL,
+    equipmentcondition VARCHAR(100) NOT NULL,
+    quantity INTEGER NOT NULL
     
 );
 
-INSERT INTO gym(address, nameofgym)
+INSERT INTO equipment(equipmentname, weight, equipmentcondition, quantity)
 values 
-insert into gym (name, weight, condition, quantity) values ('Bigtax', 18, 'Mrs', 19);
-insert into gym (name, weight, condition, quantity) values ('Y-Solowarm', 18, 'Mr', 52);
-insert into gym (name, weight, condition, quantity) values ('Rank', 32, 'Mrs', 38);
-insert into gym (name, weight, condition, quantity) values ('Ventosanzap', 62, 'Rev', 29);
-insert into gym (name, weight, condition, quantity) values ('Greenlam', 57, 'Ms', 81);
-insert into gym (name, weight, condition, quantity) values ('Cookley', 5, 'Honorable', 39);
-insert into gym (name, weight, condition, quantity) values ('Asoka', 3, 'Rev', 86);
-insert into gym (name, weight, condition, quantity) values ('Pannier', 18, 'Mrs', 40);
-insert into gym (name, weight, condition, quantity) values ('Kanlam', 68, 'Rev', 75);
-insert into gym (name, weight, condition, quantity) values ('Ronstring', 53, 'Mrs', 4);
-insert into gym (name, weight, condition, quantity) values ('Quo Lux', 83, 'Dr', 69);
-insert into gym (name, weight, condition, quantity) values ('Andalax', 22, 'Mr', 20);
-insert into gym (name, weight, condition, quantity) values ('Trippledex', 31, 'Honorable', 34);
-insert into gym (name, weight, condition, quantity) values ('Wrapsafe', 54, 'Mrs', 66);
-insert into gym (name, weight, condition, quantity) values ('Konklux', 65, 'Ms', 14);
-insert into gym (name, weight, condition, quantity) values ('Treeflex', 80, 'Mrs', 96);
-insert into gym (name, weight, condition, quantity) values ('Keylex', 50, 'Dr', 27);
-insert into gym (name, weight, condition, quantity) values ('Job', 45, 'Mr', 100);
-insert into gym (name, weight, condition, quantity) values ('Opela', 44, 'Dr', 31);
-insert into gym (name, weight, condition, quantity) values ('Lotstring', 2, 'Honorable', 99);
-insert into gym (name, weight, condition, quantity) values ('Andalax', 65, 'Mrs', 72);
-insert into gym (name, weight, condition, quantity) values ('Fix San', 31, 'Honorable', 76);
-insert into gym (name, weight, condition, quantity) values ('Veribet', 3, 'Mr', 1);
-insert into gym (name, weight, condition, quantity) values ('Lotstring', 76, 'Ms', 76);
-insert into gym (name, weight, condition, quantity) values ('Transcof', 65, 'Mrs', 62);
-insert into gym (name, weight, condition, quantity) values ('Gembucket', 57, 'Ms', 49);
-insert into gym (name, weight, condition, quantity) values ('Bitchip', 50, 'Honorable', 20);
-insert into gym (name, weight, condition, quantity) values ('Fix San', 94, 'Mr', 67);
-insert into gym (name, weight, condition, quantity) values ('Ronstring', 73, 'Rev', 96);
-insert into gym (name, weight, condition, quantity) values ('Flowdesk', 45, 'Ms', 26);
-insert into gym (name, weight, condition, quantity) values ('Span', 64, 'Mrs', 90);
-insert into gym (name, weight, condition, quantity) values ('Tres-Zap', 95, 'Mrs', 68);
-insert into gym (name, weight, condition, quantity) values ('Greenlam', 15, 'Honorable', 4);
-insert into gym (name, weight, condition, quantity) values ('Cardify', 9, 'Mr', 12);
-insert into gym (name, weight, condition, quantity) values ('Bitwolf', 53, 'Mrs', 41);
-insert into gym (name, weight, condition, quantity) values ('Prodder', 5, 'Rev', 11);
-insert into gym (name, weight, condition, quantity) values ('Zontrax', 97, 'Dr', 57);
-insert into gym (name, weight, condition, quantity) values ('Tin', 21, 'Honorable', 14);
-insert into gym (name, weight, condition, quantity) values ('Kanlam', 76, 'Dr', 76);
-insert into gym (name, weight, condition, quantity) values ('Transcof', 76, 'Mr', 72);
-insert into gym (name, weight, condition, quantity) values ('Gembucket', 30, 'Honorable', 67);
-insert into gym (name, weight, condition, quantity) values ('Keylex', 95, 'Dr', 30);
-insert into gym (name, weight, condition, quantity) values ('Aerified', 30, 'Mr', 22);
-insert into gym (name, weight, condition, quantity) values ('Subin', 23, 'Mrs', 53);
-insert into gym (name, weight, condition, quantity) values ('Bamity', 94, 'Honorable', 79);
-insert into gym (name, weight, condition, quantity) values ('Flexidy', 33, 'Honorable', 75);
-insert into gym (name, weight, condition, quantity) values ('Flowdesk', 42, 'Ms', 77);
-insert into gym (name, weight, condition, quantity) values ('Asoka', 33, 'Honorable', 48);
-insert into gym (name, weight, condition, quantity) values ('Regrant', 100, 'Mr', 43);
-insert into gym (name, weight, condition, quantity) values ('Redhold', 13, 'Dr', 22);
-insert into gym (name, weight, condition, quantity) values ('Duobam', 90, 'Honorable', 92);
-insert into gym (name, weight, condition, quantity) values ('Pannier', 84, 'Dr', 89);
-insert into gym (name, weight, condition, quantity) values ('Flexidy', 72, 'Honorable', 2);
-insert into gym (name, weight, condition, quantity) values ('Alphazap', 23, 'Dr', 26);
-insert into gym (name, weight, condition, quantity) values ('Y-Solowarm', 80, 'Mr', 25);
-insert into gym (name, weight, condition, quantity) values ('Asoka', 62, 'Honorable', 20);
-insert into gym (name, weight, condition, quantity) values ('Viva', 15, 'Dr', 4);
-insert into gym (name, weight, condition, quantity) values ('Hatity', 41, 'Rev', 36);
-insert into gym (name, weight, condition, quantity) values ('Bitwolf', 27, 'Ms', 38);
-insert into gym (name, weight, condition, quantity) values ('Span', 3, 'Ms', 11);
-insert into gym (name, weight, condition, quantity) values ('Zaam-Dox', 46, 'Mrs', 53);
-insert into gym (name, weight, condition, quantity) values ('Mat Lam Tam', 14, 'Honorable', 10);
-insert into gym (name, weight, condition, quantity) values ('Holdlamis', 100, 'Honorable', 66);
-insert into gym (name, weight, condition, quantity) values ('Regrant', 48, 'Rev', 22);
-insert into gym (name, weight, condition, quantity) values ('Daltfresh', 39, 'Honorable', 28);
-insert into gym (name, weight, condition, quantity) values ('Stronghold', 58, 'Mrs', 53);
-insert into gym (name, weight, condition, quantity) values ('Alpha', 31, 'Honorable', 51);
-insert into gym (name, weight, condition, quantity) values ('Overhold', 88, 'Ms', 100);
-insert into gym (name, weight, condition, quantity) values ('Lotlux', 32, 'Honorable', 69);
-insert into gym (name, weight, condition, quantity) values ('Sub-Ex', 32, 'Rev', 53);
-insert into gym (name, weight, condition, quantity) values ('Zontrax', 48, 'Mr', 37);
-insert into gym (name, weight, condition, quantity) values ('Opela', 94, 'Dr', 55);
-insert into gym (name, weight, condition, quantity) values ('Zamit', 59, 'Mr', 55);
-insert into gym (name, weight, condition, quantity) values ('Bitchip', 54, 'Mrs', 6);
-insert into gym (name, weight, condition, quantity) values ('Biodex', 93, 'Dr', 33);
-insert into gym (name, weight, condition, quantity) values ('Voltsillam', 88, 'Honorable', 70);
-insert into gym (name, weight, condition, quantity) values ('Aerified', 72, 'Dr', 50);
-insert into gym (name, weight, condition, quantity) values ('Temp', 38, 'Mrs', 14);
-insert into gym (name, weight, condition, quantity) values ('Treeflex', 57, 'Honorable', 38);
-insert into gym (name, weight, condition, quantity) values ('Transcof', 13, 'Dr', 72);
-insert into gym (name, weight, condition, quantity) values ('Zathin', 86, 'Mr', 92);
-insert into gym (name, weight, condition, quantity) values ('Holdlamis', 14, 'Mr', 6);
-insert into gym (name, weight, condition, quantity) values ('Stringtough', 2, 'Dr', 51);
-insert into gym (name, weight, condition, quantity) values ('Tin', 84, 'Mr', 7);
-insert into gym (name, weight, condition, quantity) values ('Tempsoft', 17, 'Rev', 86);
-insert into gym (name, weight, condition, quantity) values ('Stringtough', 25, 'Mr', 64);
-insert into gym (name, weight, condition, quantity) values ('Otcom', 55, 'Rev', 31);
-insert into gym (name, weight, condition, quantity) values ('Flowdesk', 13, 'Ms', 3);
-insert into gym (name, weight, condition, quantity) values ('Fix San', 30, 'Rev', 47);
-insert into gym (name, weight, condition, quantity) values ('Y-find', 82, 'Ms', 29);
-insert into gym (name, weight, condition, quantity) values ('Bitwolf', 95, 'Honorable', 9);
-insert into gym (name, weight, condition, quantity) values ('Tres-Zap', 71, 'Rev', 76);
-insert into gym (name, weight, condition, quantity) values ('Cookley', 23, 'Ms', 35);
-insert into gym (name, weight, condition, quantity) values ('Voyatouch', 40, 'Rev', 71);
-insert into gym (name, weight, condition, quantity) values ('Tresom', 59, 'Dr', 79);
-insert into gym (name, weight, condition, quantity) values ('Ventosanzap', 27, 'Mrs', 19);
-insert into gym (name, weight, condition, quantity) values ('Y-find', 74, 'Rev', 81);
-insert into gym (name, weight, condition, quantity) values ('Stim', 41, 'Mr', 64);
-insert into gym (name, weight, condition, quantity) values ('Zamit', 30, 'Mr', 71);
-insert into gym (name, weight, condition, quantity) values ('Zontrax', 74, 'Mrs', 30);
+('Bigtax', 18, 'new', 19),
+('YSolowarm', 18, 'worn', 52),
+('Rank', 32, 'new', 38),
+('Ventosanzap', 62, 'good', 29),
+('Greenlam', 57, 'good', 81),
+('Cookley', 5, 'new', 39),
+('Asoka', 3, 'good', 86),
+('Pannier', 18, 'new', 40),
+('lam', 68, 'good', 75),
+('Ronstring', 53, 'new', 4),
+('QuoLux', 83, 'replace', 69),
+('Andax', 22, 'worn', 20),
+('Trippledex', 31, 'new', 34),
+('Wrapsafe', 54, 'new', 66),
+('Konklux', 65, 'good', 14),
+('Treeflex', 80, 'new', 96),
+('Keylex', 50, 'replace', 27),
+('Job', 45, 'worn', 100),
+('Opela', 44, 'replace', 31), 
+('Loring', 2, 'new', 99),
+('Andalax', 65, 'new', 72),
+('FixSan', 31, 'new', 76),
+('Veribet', 3, 'worn', 1),
+('Lotstring', 76, 'good', 76),
+('Transcof', 65, 'new', 62),
+('Gembucket', 57, 'good', 49),
+('Bitchip', 50, 'new', 20),
+('Fix San', 94, 'worn', 67),
+('Ron', 73, 'good', 96),
+('Flowdesk', 45, 'good', 26),
+('Span', 64, 'new', 90),
+('TresZap', 95, 'new', 68),
+('grenn', 15, 'new', 4),
+('Cardify', 9, 'worn', 12),
+('Bitwolf', 53, 'new', 41),
+('Prodder', 5, 'good', 11),
+('Zontrax', 97, 'replace', 57),
+('Tin', 21, 'new', 14),
+('Kanlam', 76, 'replace', 76),
+('Transcof', 76, 'worn', 72),
+('Gembucket', 30, 'new', 67),
+('Keylex', 95, 'replace', 30),
+('Aerified', 30, 'worn', 22),
+('Subin', 23, 'new', 53),
+('Bamity', 94, 'new', 79),
+('Flexidy', 33, 'new', 75),
+('Flowdesk', 42, 'good', 77),
+('Asoka', 33, 'new', 48),
+('Regrant', 100, 'worn', 43),
+('Redhold', 13, 'replace', 22),
+('Duobam', 90, 'new', 92),
+('Pannier', 84, 'replace', 89),
+('Flexidy', 72, 'new', 2),
+('Alphazap', 23, 'replace', 26),
+('YSolowarm', 80, 'worn', 25),
+('Asoka', 62, 'new', 20),
+('Viva', 15, 'replace', 4),
+('Hatity', 41, 'good', 36),
+('Bitwolf', 27, 'good', 38),
+('Span', 3, 'good', 11),
+('ZaamDox', 46, 'new', 53),
+('MatLamTam', 14, 'new', 10),
+('Holdlamis', 100, 'new', 66),
+('Regrant', 48, 'good', 22),
+('Daltfresh', 39, 'new', 28),
+('Stronghold', 58, 'new', 53),
+('Alpha', 31, 'new', 51),
+('Overhold', 88, 'good', 100),
+('Lotlux', 32, 'new', 69),
+('SubEx', 32, 'good', 53),
+('Zontrax', 48, 'worn', 37),
+('Opela', 94, 'replace', 55),
+('Zamit', 59, 'worn', 55),
+('Bitchip', 54, 'new', 6),
+('Biodex', 93, 'replace', 33),
+('Voltsillam', 88, 'new', 70),
+('Aerified', 72, 'replace', 50),
+('Temp', 38, 'new', 14),
+('Treeflex', 57, 'new', 38),
+('Transcof', 13, 'replace', 72),
+('Zathin', 86, 'worn', 92),
+('Holdlamis', 14, 'worn', 6),
+('tough', 2, 'replace', 51),
+('Tin', 84, 'worn', 7),
+('Tempsoft', 17, 'good', 86),
+('Stringtough', 25, 'worn', 64),
+('Otcom', 55, 'good', 31),
+('Flowdesk', 13, 'good', 3),
+('Fix San', 30, 'good', 47),
+('Yfind', 82, 'good', 29),
+('Bitwolf', 95, 'new', 9),
+('TresZap', 71, 'good', 76),
+('Cookley', 23, 'good', 35),
+('Voyatouch', 40, 'good', 71),
+('Tresom', 59, 'replace', 79),
+('Ventosanzap', 27, 'new', 19),
+('Yfind', 74, 'good', 81),
+('Stim', 41, 'worn', 64),
+('Zamit', 30, 'worn', 71),
+('Zontrax', 74, 'new', 30);
