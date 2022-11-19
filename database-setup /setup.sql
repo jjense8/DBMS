@@ -13,3 +13,9 @@ show databases;
 
 /* Create database */
 CREATE DATABASE Lab3;
+
+/* update table name */
+ALTER TABLE session RENAME sessiontimes;
+
+/* update column name */
+ALTER TABLE instructor CHANGE adhighess address VARCHAR(100);
